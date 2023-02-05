@@ -31,8 +31,8 @@ def spotify_api():
         auth_manager=SpotifyOAuth(
             scope="playlist-modify-private",
             redirect_uri="http://example.com",
-            client_id="e065370182224cabb8dbcd6fda7f0abf",
-            client_secret="4f03df70a91844e58881552b4bdeceb3",
+            client_id="YOUR CLİENT ID",
+            client_secret="YOUR CLİENT SECRET",
             show_dialog=True,
             cache_path="token.txt"
         )
